@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <title>Capstone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action=""></form>
+    <div id="formId" class="form-container">
+        <h1>Registration form</h1>
+        <fieldset>
+        <div class="container"> 
+            <p>Name</p> <input type="text"  id="name" value="" required>
+            <p>Email</p> <input type="email"  id="email" value="" required>
+            <p>Password</p> <input type="password" id="password"  value="" required >
+            <p>Date of Birth</p> <input type="date" id="dateOfBirth"  value="" required>
+            
+        </div>
+       <fieldset> <input type="checkbox" name="" id="checkbox" > Accept terms & conditions</fieldset>
+        <button class="btn" onclick="onSubmit()" type="submit">Submit</button>
+    </fieldset>
+    </div>
+
+    <div class="records">
+        <table class="record" id="record-list" cellspacing="0" cellpadding="20">
+            <tr><th colspan="5"><h1>Entries</h1></th></tr>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Password</th>
+                <th>DOB</th>
+                <th>AcceptTerms</th>
+            </tr>
+        </table>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

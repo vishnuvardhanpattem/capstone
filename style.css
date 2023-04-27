@@ -1,0 +1,97 @@
+body{
+    margin:0 auto;
+    font-family: Montserrat;
+    font-weight: bold;
+    color: black;
+    background: linear-gradient(135deg,#0A4D68,#05BFDB,#088395);
+}
+
+.form-container{
+    width: 30%;
+    margin:0 auto;
+    padding: 2rem;
+    margin-top: 3rem;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.3);
+    border-radius: 8px;
+    background: linear-gradient(135deg,#9384D1,#ECC9EE,#C9A7EB,#0A4D68);
+}
+
+.form-container h1{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.container{
+    margin: 3rem 0;
+   font-size: 1.2rem;
+   font-weight: bold;
+}
+
+.container input {
+    width: 100%;
+    min-height: 2.5rem;
+    border: 0;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.3);
+    border-radius: 8px;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 300;
+    outline: none;
+    padding: 0 5px;
+}
+
+fieldset{
+  border: 0;
+}
+
+.btn{
+    font-size: 1.2rem;
+    font-weight: bold;
+    background: #ff2f32;
+    color: #fff;
+    border: 0;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+}
+
+/* .checkbox-disabled{
+   visibility: hidden;
+}
+
+.checkbox-undisabled{
+    visibility: visible;
+} */
+
+.records-list{
+    width:50%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    min-height: 2.5rem;
+    border: 0;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.3);
+    border-radius: 8px;
+    display: flex;
+    color: black;
+    
+}
+
+.record{
+    width:50%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    min-height: 2.5rem;
+    border: 0;
+    background: linear-gradient(135deg,#9384D1,#ECC9EE,#C9A7EB,#0A4D68);
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.3);
+    border-radius: 8px;
+    color: black;
+}
+
+.record td{
+    padding-left: 2.5rem;
+    color:rgba(0,0,0,0.6);
+
+}
